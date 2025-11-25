@@ -49,14 +49,18 @@ bash
 #### Serão instaladas automaticamente pelo script:
 wget unzip p7zip-full whiptail
 
-###🚀 Como usar
+### 🚀 Como usar
 
 #### Instalação rápida (um comando):
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/hudsonalbuquerque97-sys/tactical-ops-installer-linux/main/TacticalOps-Install-Linux.sh | bash
+wget https://raw.githubusercontent.com/hudsonalbuquerque97-sys/tactical-ops-installer-linux/main/TacticalOps-Install-Linux.sh && chmod +x TacticalOps-Install-Linux.sh && ./TacticalOps-Install-Linux.sh
 ```
+**Ou alternativamente se prefere usar o curl:**
 
+```bash
+curl -fsSL https://raw.githubusercontent.com/hudsonalbuquerque97-sys/tactical-ops-installer-linux/main/TacticalOps-Install-Linux.sh -o /tmp/to-installer.sh && chmod +x /tmp/to-installer.sh && /tmp/to-installer.sh
+```
 #### Ou instalação manual:
 
 1. **Baixe o script:**
@@ -209,12 +213,17 @@ bash
 wget unzip p7zip-full whiptail
 
 ### 🚀 How to use
-####Quick installation (one command):
+#### Quick installation (one command):
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/hudsonalbuquerque97-sys/tactical-ops-installer-linux/main/TacticalOps-Install-Linux.sh | bash
+wget https://raw.githubusercontent.com/hudsonalbuquerque97-sys/tactical-ops-installer-linux/main/TacticalOps-Install-Linux.sh && chmod +x TacticalOps-Install-Linux.sh && ./TacticalOps-Install-Linux.sh
 ```
 
+**Or if you prefer to use curl:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/hudsonalbuquerque97-sys/tactical-ops-installer-linux/main/TacticalOps-Install-Linux.sh -o /tmp/to-installer.sh && chmod +x /tmp/to-installer.sh && /tmp/to-installer.sh
+```
 #### Or manual installation:
 
 1. **Download the script:**
