@@ -1,0 +1,145 @@
+# GitIgnore para Tactical Ops Linux Installer
+
+# Arquivos temporários do instalador
+/tmp/tactical-ops-installer-*/
+*.tmp
+*.temp
+
+# Arquivos baixados durante a instalação
+TO-Fixed-Pack-*.7z
+TOFP*-LinuxFiles.zip
+
+# Logs do script
+*.log
+install.log
+debug.log
+
+# Backups de arquivos
+*.bak
+*.backup
+*~
+
+# Arquivos de configuração local
+.config/
+.local/
+
+# Diretório de instalação do jogo (não versionar)
+Games/
+TacticalOps/
+
+# Arquivos de desktop criados
+*.desktop
+
+# Ícones baixados
+*.png
+*.ico
+
+# Cache do sistema
+.cache/
+
+# Arquivos de lock
+*.lock
+
+# Arquivos de sessão
+*.session
+*.session-*
+
+# Arquivos de histórico
+.history
+.bash_history
+
+# Arquivos de IDE/Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backups de pacotes
+*.tar.gz
+*.7z
+*.zip
+
+# Arquivos de sistema
+.directory
+.Trash-*
+*.un~
+
+# Arquivos de log do sistema
+/var/log/
+syslog
+messages
+
+# Arquivos de usuário específicos
+*.user
+*.userprefs
+
+# Backup de banco de dados (se houver)
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificados/SSL
+*.pem
+*.crt
+*.key
+
+# Senhas e credenciais
+*.env
+.env.local
+.secret
+*.key
+*.pwd
+
+# Documentação gerada
+/docs/build/
+/docs/.vuepress/dist
+
+# Testes e cobertura
+/coverage/
+*.lcov
+
+# Build do projeto (se futuramente compilar algo)
+/dist/
+/build/
+/out/
+/target/
+
+# Dependências do Node (se futuramente usar)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de patch criados
+*.patch
+*.diff
+
+# Arquivos de tradução compilados
+*.mo
+*.gmo
+
+# Arquivos de objeto
+*.o
+*.obj
+*.so
+
+# Binários
+*.exe
+*.bin
+*.app
+
+# Core dumps
+core
+*.core
+core.*
