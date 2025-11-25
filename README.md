@@ -345,5 +345,8 @@ Feel free to submit issues or pull requests to improve this installer.
 - **TO Developers** – For creating this classic
 - **Mirror contributors** – For providing the files
 ---
+<div align="center">
 
 **Made with ❤️ for the TacticalOps community**
+
+</div>
