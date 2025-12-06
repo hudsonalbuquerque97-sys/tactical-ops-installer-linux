@@ -350,3 +350,9 @@ Feel free to submit issues or pull requests to improve this installer.
 **Made with ❤️ for the TacticalOps community**
 
 </div>
+
+**Screenshot** 
+
+![Minha área de trabalho](https://raw.githubusercontent.com/hudsonalbuquerque97-sys/tactical-ops-installer-linux/main/screenshot-1.png)
+
+![Minha área de trabalho](https://raw.githubusercontent.com/hudsonalbuquerque97-sys/tactical-ops-installer-linux/main/screenshot.png)
